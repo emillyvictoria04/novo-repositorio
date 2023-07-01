@@ -1,0 +1,66 @@
+*{
+    margin:5px;
+    padding: 0px;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family:sans-serif;
+}
+
+header{
+    margin:20px
+    padding:10px
+}
+
+h1{
+    font: size 1.6em;
+    background-color: rgba(187, 183, 183, 0.781);
+    margin: 10px;
+}
+
+form{
+    margin: 15px;
+}
+
+div{
+    margin:0px
+}
+
+fieldset{
+    padding: 10px;
+    margin-bottom:5px;
+    display: flex;
+    border: 1; background-color:white
+    
+
+}
+legend{
+    padding: 0px;
+
+}
+
+label{
+    margin-bottom: 15px;
+    
+}
+input{
+    width: 100px;
+}
+
+.dados-nome{
+    margin-right: 50px;
+}
+
+button{
+    padding: 7px;
+    background-color: red;
+    color:white
+}
+.checagem-check1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0%;
+    background-color:black
+}
+
