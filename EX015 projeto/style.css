@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#0EDAFF;
+    padding: 10px 20px;
+}
+h1{
+    line-height:.8em;
+    margin-right: 20px; 
+    font-family: 'Noto Sans Thai Looped', sans-serif;
+
+}
+#navegador{
+    display: flex;
+}
+nav a{
+    margin-right: 20px;
+}
+main{
+    background-color: rgba(0, 255, 255, 0.11);
+   
+}
+
+aside{
+    max-width: 600px;
+}
+
+@midia screen and (min-width){
+    main
+    {display:flex;
+        flex-wrap:wrap;
+        flex-direction:row-reverse;
+    }
+}
+main img{
+    width: 650px;
+}
+
+main p{
+    width: 500px;
+}
+input{
+    padding:10px;
+    
+    
+}
+
+
+
